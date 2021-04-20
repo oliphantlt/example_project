@@ -4,6 +4,19 @@
 
 You should know how to format text (bold, italic, headings, numbered and bulleted lists), include links and images, and include coding blocks.  If you want to learn more go to [Githubs's Markdown Site](https://guides.github.com/features/mastering-markdown/).
 
+Example code blocks:
+
+```javascript
+function blah(x) {
+	print("hello");
+}
+```
+
+```python
+def blah(x):
+   print("Hello")
+```
+
 ### Git Basics
 
 You should know how to
@@ -23,38 +36,14 @@ You should know how to
 * "reset HEAD \<file\>" -- to unstage a file
 * "checkout -- \<file\>" -- to discard changes for a file and revert back to last checked out version of file.
 
-### Git Remotes
 
 ### Git Branches
 
-By the end you should know how to do the following with git:
+Branching means you diverge from the main line of development and continue to work without messing wiht that main line.  You can create a branch and then make changes that will be recorded within that branch.
 
-* Initialize a git-controlled project
-* Create a simple MarkDown file
-* Add a file to be managed by git
-* Commit a file along with a message (-m)
-* Create a branch
-* Look at the log along with
-	* --graph (show branch and merge history)
-	* --stat (show statistics along with +++ and --- for files)
-	* --patch (or -p) (shows the difference introduced by each commit
+### Git Remotes
 
-## Undoing Things
+* `git remote -v` (to see the list of remote repositories)
+* `git remote add <shortname> <url>` to link a remote repository to your local project.  The \<shortname\> can be used in the future to refer to the remote repository.
+* `git fetch <remote>` downloads data from the remote project which you don't have yet.  After this command you have references to all the branches from that remote, which you can merge or inspect at any time.
 
-
-
-## Remotes
-
-* 
-
-
-```javascript
-function blah(x) {
-	print("hello");
-}
-```
-
-```python
-def blah(x):
-   print("Hello")
-```
