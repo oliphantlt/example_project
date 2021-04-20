@@ -41,7 +41,9 @@ You should know how to
 
 Branching means you diverge from the main line of development and continue to work without messing wiht that main line.  You can create a branch and then make changes that will be recorded within that branch.
 
-Me trying to add via a testing branch.
+* `git branch <branch_name>` creates a branch to the current state of the project.  This does not switch to that branch.  To change to that branch use `checkout`.  When multiple people are working on the same project, it is a good idea for each person to have their own branch where they make changes/commits and then merge those changes back into the branch they split off from.
+* `git checkout <branch_name>` switches your project to the state of that branch.
+* `git merge <branch_name>` combines the specified branch into the current branch.
 
 ### Git Remotes
 
