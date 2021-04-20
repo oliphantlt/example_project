@@ -14,8 +14,14 @@ You should know how to
 	* --graph
 	* --stat
 	* --patch
+* status to see what is in the staging area
 
-### Git Undoing
+### Git Undoing Things
+
+* status (to see what is staged for a commit)
+* "commit --amend" (to add additional files to previous commit)
+* "reset HEAD \<file\>" -- to unstage a file
+* "checkout -- \<file\>" -- to discard changes for a file and revert back to last checked out version of file.
 
 ### Git Remotes
 
@@ -35,10 +41,7 @@ By the end you should know how to do the following with git:
 
 ## Undoing Things
 
-* status (to see what is staged for a commit)
-* "commit --amend" (to add additional files to previous commit)
-* "reset HEAD \<file\>" -- to unstage a file
-* "checkout -- \<file\>" -- to discard changes for a file and revert back to last checked out version of file.
+
 
 ## Remotes
 
