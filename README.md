@@ -41,6 +41,8 @@ You should know how to
 
 Branching means you diverge from the main line of development and continue to work without messing wiht that main line.  You can create a branch and then make changes that will be recorded within that branch.
 
+Me trying to add via a testing branch.
+
 ### Git Remotes
 
 * `git remote -v` (to see the list of remote repositories)
