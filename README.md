@@ -51,3 +51,5 @@ Branching means you diverge from the main line of development and continue to wo
 * `git remote add <shortname> <url>` to link a remote repository to your local project.  The \<shortname\> can be used in the future to refer to the remote repository.
 * `git fetch <remote>` downloads data from the remote project which you don't have yet.  After this command you have references to all the branches from that remote, which you can merge or inspect at any time.
 
+### Aidan
+Aidan added this.
