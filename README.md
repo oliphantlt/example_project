@@ -8,7 +8,7 @@ Example code blocks:
 
 ```javascript
 function blah(x) {
-	print("hello");
+	print("hello to CS students everywhere!");
 }
 ```
 
